@@ -1,0 +1,2 @@
+# Dashboard
+Un sencillo dashboard.
