@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/edificio"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/dash"
+                android:layout_centerInParent="false"
+                android:text="Dashboard"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#424242"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_below="@+id/dash"
+                android:text="Dashboard de ..."
+                android:textSize="20sp"
+                android:textColor="#616161"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:src="@drawable/empresa"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+
+        </RelativeLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <GridLayout
+                android:columnCount="2"
+                android:rowCount="4"
+                android:alignmentMode="alignMargins"
+                android:columnOrderPreserved="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c1"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="12dp">
+
+                    <LinearLayout
+                        android:padding="16dp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:src="@drawable/calendario"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"/>
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="Ventas \nMensuales"
+                            android:textColor="#FAFAFA"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c2"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="12dp">
+
+                    <LinearLayout
+                        android:padding="16dp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:src="@drawable/ventas"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"/>
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="Ventas por\naño"
+                            android:textColor="#FAFAFA"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c3"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="12dp">
+
+                    <LinearLayout
+                        android:padding="16dp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:src="@drawable/zona"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"/>
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="Zonas"
+                            android:textColor="#FAFAFA"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c4"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="12dp">
+
+                    <LinearLayout
+                        android:padding="16dp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:src="@drawable/ventasporzona"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"/>
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="Ventas por \nzona"
+                            android:textColor="#FAFAFA"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c5"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="12dp">
+
+                    <LinearLayout
+                        android:padding="16dp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:src="@drawable/productos"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"/>
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="Productos"
+                            android:textColor="#FAFAFA"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c6"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="12dp">
+
+                    <LinearLayout
+                        android:padding="16dp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:src="@drawable/productosmasvendidos"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"/>
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="Indice de \nProductos"
+                            android:textColor="#FAFAFA"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c7"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="12dp">
+
+                    <LinearLayout
+                        android:padding="16dp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:src="@drawable/productosvendidosporzona"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"/>
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="Productos \nvendidos \npor zona"
+                            android:textColor="#FAFAFA"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
