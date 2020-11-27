@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/productosvendidosporzona2"
     tools:context=".ProdVendZonaActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
