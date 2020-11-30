@@ -25,12 +25,12 @@
 
     <ListView
         android:id="@+id/listv1"
-        android:layout_width="300dp"
-        android:layout_height="573dp"
+        android:cacheColorHint="#FFFFFF"
+        android:layout_width="311dp"
+        android:layout_height="402dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

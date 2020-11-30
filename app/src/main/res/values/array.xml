@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="arrayProdcutos">
-        <item>Producto1</item>
-        <item>Producto12</item>
-        <item>Producto13</item>
-        <item>Producto14</item>
-        <item>Producto15</item>
-        <item>Producto16</item>
-        <item>Producto17</item>
+        <item>COCA-COLA</item>
+        <item>COCA-COLA ZERO</item>
+        <item>COCA-COLA LIGHT</item>
+        <item>FANTA NARANAJA</item>
+        <item>FANTA PIÑA</item>
+        <item>SPRITE</item>
+        <item>SPRITE ZERO</item>
+        <item>POWERADE MOUNTAIN BLASH</item>
+        <item>POWERADE MULTIFRUTAS</item>
+        <item>POWERADE GREEN PUNCH</item>
+        <item>FRUGOS DURAZNO</item>
+        <item>FRUGOS MANZANA</item>
+        <item>FRUGOS NARANAJA</item>
+        <item>AQUARIUS NARANAJA</item>
+        <item>CRUSH NARANAJA</item>
+        <item>CRUSH PIÑA</item>
+        <item>TROPICAL NARANAJA SIN AZUCAR</item>
+        <item>ADES DURAZNO</item>
+        <item>ADES MANZANA</item>
+        <item>ADES NATURAL</item>
     </string-array>
 </resources>
