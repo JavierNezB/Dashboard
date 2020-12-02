@@ -27,13 +27,15 @@ import java.util.ArrayList;
 public class VentasMenActivity extends AppCompatActivity {
 
     private PieChart pieChart;
-    private BarChart barChart;
+    private BarChart barChart1;
     //datos del eje horizontal eje X
-    private String [] months = new  String[]{"Enero","Febrero","Marzo","Abril","Mayo"};
+    private String [] months1 = new  String[]{"Ene","Feb","Mar","Abr","May", "Jun", "Jul","Ago","Sep","Oct","Nov","Dici"};
     //datos del eje vertical eje Y
-    private int [] sale = new int[]{25, 30, 38, 10, 15};
+    private int [] sale1 = new int[]{3750000, 4100000, 3450000, 2800000, 4150000, 4500000, 3850000, 5200000, 4550000, 3900000, 3250000, 6600000};
     //Colores de nuestra gafica
-    private int [] colors = new int[]{Color.rgb(196,235,83), Color.rgb(83, 235, 173), Color.rgb(255,170,0), Color.rgb(83, 203, 235), Color.rgb(229, 106, 212)};
+    private int [] colors1 = new int[]{Color.rgb(67, 221,242), Color.rgb(67, 221,242), Color.rgb(67, 221,242), Color.rgb(67, 221,242),
+            Color.rgb(67, 221,242), Color.rgb(67, 221,242), Color.rgb(67, 221,242), Color.rgb(67, 221,242),Color.rgb(67, 221,242),
+            Color.rgb(67, 221,242),Color.rgb(67, 221,242),Color.rgb(67, 221,242)};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +44,7 @@ public class VentasMenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_ventas_men);
 
         //Buscamos nuestras graficas en las vistas
-        barChart=(BarChart) findViewById(R.id.barchart);
+        barChart1=(BarChart) findViewById(R.id.barchart1);
         //pieChart=(PieChart) findViewById(R.id.piechart);
         createChats();
     }
@@ -74,11 +76,11 @@ public class VentasMenActivity extends AppCompatActivity {
 
         //rellenar los datos de la grafica
         ArrayList<LegendEntry>entries=new ArrayList<>();
-        for(int i = 0; i<months.length; i++){
+        for(int i = 0; i<months1.length; i++){
             //variable para agregar los datos de la leyenda
             LegendEntry entry = new LegendEntry();
-            entry.formColor=colors[i];
-            entry.label=months[i];
+            entry.formColor=colors1[i];
+            entry.label=months1[i];
             entries.add(entry);
         }
         legend.setCustom(entries);
@@ -86,8 +88,8 @@ public class VentasMenActivity extends AppCompatActivity {
     //datos dentro de nuestra gafica de barras
     private ArrayList<BarEntry>getBarEntries(){
         ArrayList<BarEntry> entries = new ArrayList<>();
-        for (int i = 0; i<sale.length; i++){
-            entries.add(new BarEntry(i, sale[i]));
+        for (int i = 0; i<sale1.length; i++){
+            entries.add(new BarEntry(i, sale1[i]));
         }
         return entries;
     }
@@ -103,7 +105,7 @@ public class VentasMenActivity extends AppCompatActivity {
     private void axisX(XAxis axis){
         axis.setGranularityEnabled(true);
         axis.setPosition(XAxis.XAxisPosition.BOTTOM);
-        axis.setValueFormatter(new IndexAxisValueFormatter(months));
+        axis.setValueFormatter(new IndexAxisValueFormatter(months1));
         //aqui se habilita las etiquetas en la parte inferior
         axis.setEnabled(true);
     }
@@ -113,7 +115,7 @@ public class VentasMenActivity extends AppCompatActivity {
         //valor minimo eje Y
         axis.setAxisMinimum(0);
         //cambiar gradualidad
-        axis.setGranularity(15);
+        axis.setGranularity(1500000);
     }
     private void axisRight(YAxis axis){
         // poner numeros del lado derecho
@@ -121,17 +123,17 @@ public class VentasMenActivity extends AppCompatActivity {
     }
     //creación de la grafica de barras
     public void createChats(){
-        barChart = (BarChart) getSameChart(barChart, "Series", Color.BLACK, Color.TRANSPARENT, 3000);
+        barChart1 = (BarChart) getSameChart(barChart1, "Ventas 2019 Alvaro Obregon", Color.BLACK, Color.TRANSPARENT, 3000);
         //carqacteristicas de la grafica:
-        barChart.setDrawGridBackground(false);// quitamos el fondo feo detras de la grafica
-        barChart.setDrawBarShadow(false); // activamos la sobra restante de la grafica
-        barChart.setData(getBarData());
-        barChart.invalidate();
-        axisX(barChart.getXAxis());
-        axisLeft(barChart.getAxisLeft());
-        axisRight(barChart.getAxisRight());
+        barChart1.setDrawGridBackground(false);// quitamos el fondo feo detras de la grafica
+        barChart1.setDrawBarShadow(false); // activamos la sobra restante de la grafica
+        barChart1.setData(getBarData());
+        barChart1.invalidate();
+        axisX(barChart1.getXAxis());
+        axisLeft(barChart1.getAxisLeft());
+        axisRight(barChart1.getAxisRight());
         //Poner en la grafica de PIE los indicadores arriba
-        barChart.getLegend().setEnabled(false);
+        barChart1.getLegend().setEnabled(false);
 
         //creación de la grafica de pie
         /*
@@ -148,7 +150,7 @@ public class VentasMenActivity extends AppCompatActivity {
 
     //agregar los datos dentro de la grafica
     private DataSet getData(DataSet dataSet){
-        dataSet.setColors(colors);
+        dataSet.setColors(colors1);
         //Cambiar color de los numeros dentro de la grafica las etiquetas
         dataSet.setValueTextColor(Color.BLACK);
         //tamaño del texto

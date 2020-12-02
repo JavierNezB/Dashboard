@@ -20,7 +20,7 @@
 
             <com.github.mikephil.charting.charts.BarChart
                     android:layout_width="match_parent"
-                    android:layout_height="400dp"
+                    android:layout_height="450dp"
                     android:layout_weight="1"
                     android:id="@+id/barchart1"/>
             <!-- Comentario -->
@@ -33,45 +33,45 @@
             -->
             <com.github.mikephil.charting.charts.BarChart
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
+                android:layout_height="450dp"
                 android:layout_weight="1"
                 android:id="@+id/barchart2"/>
 
             <com.github.mikephil.charting.charts.BarChart
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
+                android:layout_height="450dp"
                 android:layout_weight="1"
                 android:id="@+id/barchart3"/>
 
             <com.github.mikephil.charting.charts.BarChart
                 android:id="@+id/barchart4"
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
+                android:layout_height="450dp"
                 android:layout_below="@+id/barchart"
                 android:layout_weight="1" />
 
             <com.github.mikephil.charting.charts.BarChart
                 android:id="@+id/barchart5"
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
+                android:layout_height="450dp"
                 android:layout_below="@+id/barchart"
                 android:layout_weight="1" />
             <com.github.mikephil.charting.charts.BarChart
                 android:id="@+id/barchart6"
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
+                android:layout_height="450dp"
                 android:layout_below="@+id/barchart"
                 android:layout_weight="1" />
             <com.github.mikephil.charting.charts.BarChart
                 android:id="@+id/barchart7"
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
+                android:layout_height="450dp"
                 android:layout_below="@+id/barchart"
                 android:layout_weight="1" />
             <com.github.mikephil.charting.charts.BarChart
                 android:id="@+id/barchart8"
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
+                android:layout_height="450dp"
                 android:layout_below="@+id/barchart"
                 android:layout_weight="1" />
         </GridLayout>
