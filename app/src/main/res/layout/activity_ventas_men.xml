@@ -7,17 +7,73 @@
     android:background="@drawable/ventasmensu"
     android:orientation="vertical"
     tools:context=".VentasMenActivity">
-
-    <com.github.mikephil.charting.charts.BarChart
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:id="@+id/barchart"/>
-    <!-- Comentario -->
-    <com.github.mikephil.charting.charts.PieChart
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:id="@+id/piechart"/>
+        android:layout_height="wrap_content">
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="4"
+            android:alignmentMode="alignBounds"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <com.github.mikephil.charting.charts.BarChart
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:layout_weight="1"
+                    android:id="@+id/barchart1"/>
+            <!-- Comentario -->
+            <!---
+            <com.github.mikephil.charting.charts.PieChart
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/piechart"/>
+            -->
+            <com.github.mikephil.charting.charts.BarChart
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                android:id="@+id/barchart2"/>
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                android:id="@+id/barchart3"/>
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barchart4"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/barchart"
+                android:layout_weight="1" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barchart5"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/barchart"
+                android:layout_weight="1" />
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barchart6"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/barchart"
+                android:layout_weight="1" />
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barchart7"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/barchart"
+                android:layout_weight="1" />
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barchart8"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/barchart"
+                android:layout_weight="1" />
+        </GridLayout>
+    </ScrollView>
 </LinearLayout>

@@ -43,7 +43,7 @@ public class VentasMenActivity extends AppCompatActivity {
 
         //Buscamos nuestras graficas en las vistas
         barChart=(BarChart) findViewById(R.id.barchart);
-        pieChart=(PieChart) findViewById(R.id.piechart);
+        //pieChart=(PieChart) findViewById(R.id.piechart);
         createChats();
     }
     //Personalizar la grafica datos generales
@@ -92,14 +92,14 @@ public class VentasMenActivity extends AppCompatActivity {
         return entries;
     }
     //datos dentro de nuestra gafica de pastel
-    private ArrayList<PieEntry>getPieEntries(){
+    /*private ArrayList<PieEntry>getPieEntries(){
         ArrayList<PieEntry> entries = new ArrayList<>();
         for (int i = 0; i<sale.length; i++){
             entries.add(new PieEntry(sale[i]));
         }
         return entries;
-    }
-    //afgregar cada uno de los valores, seria la barra
+    }*/
+    //agregar cada uno de los valores, seria la barra
     private void axisX(XAxis axis){
         axis.setGranularityEnabled(true);
         axis.setPosition(XAxis.XAxisPosition.BOTTOM);
@@ -134,6 +134,7 @@ public class VentasMenActivity extends AppCompatActivity {
         barChart.getLegend().setEnabled(false);
 
         //creación de la grafica de pie
+        /*
         pieChart=(PieChart) getSameChart(pieChart, "Ventas", Color.BLACK, Color.TRANSPARENT, 3000);
         //circulo de en medio
         pieChart.setHoleRadius(10);
@@ -142,6 +143,7 @@ public class VentasMenActivity extends AppCompatActivity {
         pieChart.invalidate();
         //No se mostraría la grafica
         //pieChart.setDrawHoleEnabled(false);
+        */
     }
 
     //agregar los datos dentro de la grafica
@@ -164,6 +166,7 @@ public class VentasMenActivity extends AppCompatActivity {
         return barData;
     }
     //personalizar el contenido la grafica de PIE
+    /*
     private PieData getPieData(){
         PieDataSet pieDataSet=(PieDataSet)getData(new PieDataSet(getPieEntries(), ""));
 
@@ -171,4 +174,5 @@ public class VentasMenActivity extends AppCompatActivity {
         pieDataSet.setValueFormatter(new PercentFormatter());
         return new PieData(pieDataSet);
     }
+     */
 }
