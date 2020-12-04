@@ -73,7 +73,7 @@
                         <TextView
                             android:id="@+id/alvaro"
                             android:layout_marginTop="2dp"
-                            android:textSize="18dp"
+                            android:textSize="20dp"
                             android:textStyle="bold"
                             android:layout_gravity="left"
                             android:text="Alvaro Obregon"
@@ -83,39 +83,184 @@
 
                         <TextView
                             android:layout_below="@+id/alvaro"
-                            android:text="Producto1"
-                            android:textSize="20sp"
+                            android:text="COCA-COLA / 150000"
+                            android:textSize="15sp"
                             android:textColor="#000000"
-                            android:layout_gravity="center"
+                            android:layout_gravity="left"
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
 
                         <TextView
                             android:layout_below="@+id/alvaro"
-                            android:text="Producto2"
-                            android:textSize="20sp"
+                            android:text="COCA-COLA ZERO / 35000"
+                            android:textSize="15sp"
                             android:textColor="#000000"
-                            android:layout_gravity="center"
+                            android:layout_gravity="left"
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
                         <TextView
                             android:layout_below="@+id/alvaro"
-                            android:text="Producto3"
-                            android:textSize="20sp"
+                            android:text="COCA-COLA LIGHT / 50000"
+                            android:textSize="15sp"
                             android:textColor="#000000"
-                            android:layout_gravity="center"
+                            android:layout_gravity="left"
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
 
                         <TextView
                             android:layout_below="@+id/alvaro"
-                            android:text="Producto4"
-                            android:textSize="20sp"
+                            android:text="FANTA NARANJA / 15500"
+                            android:textSize="15sp"
                             android:textColor="#000000"
-                            android:layout_gravity="center"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/alvaro"
+                            android:text="FANTA PIÑA / 14000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/alvaro"
+                            android:text="SPRITE / 7000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/alvaro"
+                            android:text="SPRITE ZERO / 9500"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/alvaro"
+                            android:text="POWERADE MOUNTAIN BLASH / 8000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/alvaro"
+                            android:text="POWERADE MULTIFRUTAS / 9000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/alvaro"
+                            android:text="POWERADE GREEN PUNCH / 8500"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/alvaro"
+                            android:text="FRUGOS DURAZNO / 5000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/alvaro"
+                            android:text="FRUGOS MANZANA / 4000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/alvaro"
+                            android:text="FRUGOS NARANAJA / 5000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/alvaro"
+                            android:text="AQUARIUS NARANAJA / 4000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/alvaro"
+                            android:text="CRUSH NARANAJA / 3000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_below="@+id/alvaro"
+                            android:text="CRUSH PIÑA / 2000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/alvaro"
+                            android:text="TROPICAL NARANAJA SIN AZUCAR / 2000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/alvaro"
+                            android:text="ADES DURAZNO / 8800"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/alvaro"
+                            android:text="ADES MANZANA / 8800"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/alvaro"
+                            android:text="ADES NATURAL / 8800"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
@@ -142,12 +287,197 @@
                         android:layout_height="wrap_content">
 
                         <TextView
+                            android:id="@+id/Azca"
                             android:layout_marginTop="2dp"
-                            android:textSize="18dp"
+                            android:textSize="20dp"
                             android:textStyle="bold"
                             android:layout_gravity="left"
                             android:text="Azcapotzalco"
                             android:textColor="#000000"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="COCA-COLA / 145000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="COCA-COLA ZERO / 38000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="COCA-COLA LIGHT / 45000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="FANTA NARANJA / 18500"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="FANTA PIÑA / 17000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="SPRITE / 6000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="SPRITE ZERO / 7500"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="POWERADE MOUNTAIN BLASH / 6800"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="POWERADE MULTIFRUTAS / 7200"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="POWERADE GREEN PUNCH / 8500"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="FRUGOS DURAZNO / 5400"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="FRUGOS MANZANA / 4500"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="FRUGOS NARANAJA / 5600"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="AQUARIUS NARANAJA / 4500"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="CRUSH NARANAJA / 3200"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="CRUSH PIÑA / 2100"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="TROPICAL NARANAJA SIN AZUCAR / 2400"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="ADES DURAZNO / 8300"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="ADES MANZANA / 8700"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/Azca"
+                            android:text="ADES NATURAL / 8800"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
                     </LinearLayout>
@@ -172,12 +502,197 @@
                         android:layout_height="wrap_content">
 
                         <TextView
+                            android:id="@+id/beni"
                             android:layout_marginTop="2dp"
-                            android:textSize="18dp"
+                            android:textSize="20dp"
                             android:textStyle="bold"
                             android:layout_gravity="left"
                             android:text="Benito Juarez"
                             android:textColor="#000000"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="COCA-COLA / 165000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="COCA-COLA ZERO / 33000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="COCA-COLA LIGHT / 4000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="FANTA NARANJA / 12100"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="FANTA PIÑA / 12300"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="SPRITE / 5400"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="SPRITE ZERO / 4500"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="POWERADE MOUNTAIN BLASH / 5600"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="POWERADE MULTIFRUTAS / 4500"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="POWERADE GREEN PUNCH / 3200"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="FRUGOS DURAZNO / 2100"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="FRUGOS MANZANA / 2400"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="FRUGOS NARANAJA / 8300"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="AQUARIUS NARANAJA / 4500"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="CRUSH NARANAJA / 4000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="CRUSH PIÑA / 3000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="TROPICAL NARANAJA SIN AZUCAR / 2000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="ADES DURAZNO / 2000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="ADES MANZANA / 8800"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/beni"
+                            android:text="ADES NATURAL / 8300"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
                     </LinearLayout>
@@ -201,12 +716,196 @@
                         android:layout_height="wrap_content">
 
                         <TextView
+                            android:id="@+id/coyo"
                             android:layout_marginTop="2dp"
                             android:textSize="18dp"
                             android:textStyle="bold"
                             android:layout_gravity="left"
                             android:text="Coyoacan"
                             android:textColor="#000000"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="COCA-COLA / 189000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="COCA-COLA ZERO / 31000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="COCA-COLA LIGHT / 4500"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="FANTA NARANJA / 3200"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="FANTA PIÑA / 2100"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="SPRITE / 2400"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="SPRITE ZERO / 8300"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="POWERADE MOUNTAIN BLASH / 4500"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="POWERADE MULTIFRUTAS / 4000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="POWERADE GREEN PUNCH / 3000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="FRUGOS DURAZNO / 2000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="FRUGOS MANZANA / 2000"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="FRUGOS NARANAJA / 4500"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="AQUARIUS NARANAJA / 5600"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="CRUSH NARANAJA / 4500"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="CRUSH PIÑA / 3200"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="TROPICAL NARANAJA SIN AZUCAR / 2100"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="ADES DURAZNO / 2400"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="ADES MANZANA / 7800"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_below="@+id/coyo"
+                            android:text="ADES NATURAL / 6300"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
                     </LinearLayout>
